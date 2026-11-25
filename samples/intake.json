@@ -1,0 +1,46 @@
+[
+  {
+    "sequence": 1,
+    "at": 10,
+    "source": "field",
+    "facts": {
+      "accepted": [
+        "cab-1",
+        "feed-7"
+      ]
+    }
+  },
+  {
+    "sequence": 2,
+    "at": 14,
+    "source": "operator",
+    "facts": {
+      "operator": "op-a",
+      "takes": [
+        "cab-1",
+        "feed-7"
+      ]
+    }
+  },
+  {
+    "sequence": 3,
+    "at": 16,
+    "source": "finance",
+    "facts": {
+      "payment": "pay-14",
+      "line": "L1",
+      "state": "submitted"
+    }
+  },
+  {
+    "sequence": 4,
+    "at": 24,
+    "source": "review",
+    "facts": {
+      "work": "feed-7",
+      "allocation": "dedicated",
+      "operator": "op-a",
+      "part": "outlet-east"
+    }
+  }
+]

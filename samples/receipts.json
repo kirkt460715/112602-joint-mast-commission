@@ -1,0 +1,26 @@
+[
+  {
+    "action": "payment",
+    "desk": "procurement",
+    "ref": "pay-14",
+    "delayed": true,
+    "evidence": {
+      "state": "paid",
+      "amount_cents": 144000
+    }
+  },
+  {
+    "action": "circuit-proof",
+    "desk": "utility",
+    "ref": "feed-7",
+    "delayed": false,
+    "evidence": {
+      "points": [
+        "outlet-east",
+        "outlet-west"
+      ],
+      "east_customer": "op-a",
+      "west_usage": "joint"
+    }
+  }
+]

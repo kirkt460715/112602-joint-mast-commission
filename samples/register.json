@@ -1,0 +1,43 @@
+{
+  "sites": {
+    "base-9": {
+      "owner": "tower-a",
+      "operators": [
+        "op-a",
+        "op-b"
+      ]
+    }
+  },
+  "works": {
+    "cab-1": {
+      "type": "dedicated",
+      "user": "op-a"
+    },
+    "feed-7": {
+      "type": "shared"
+    },
+    "feed-8": {
+      "type": "unknown"
+    }
+  },
+  "invoice": [
+    {
+      "id": "inv-44",
+      "line": "L1",
+      "work": "feed-7",
+      "cents": 240000
+    },
+    {
+      "id": "inv-44",
+      "line": "L2",
+      "work": "feed-8",
+      "cents": 70000
+    }
+  ],
+  "shares": {
+    "feed-7": {
+      "op-a": 60,
+      "op-b": 40
+    }
+  }
+}
